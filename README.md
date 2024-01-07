@@ -7,7 +7,7 @@ This repository is the official PyTorch implementation of DM-AHR: a customized S
 ---
 > This paper introduces DM-AHR, a novel self-supervised diffusion model for automatic hair removal in dermoscopic images to improve skin diagnosis accuracy, presenting a new dataset and demonstrating enhanced lesion analysis. It details DM-AHR's architecture, robust performance in preserving skin details.
 ><p align="center">
-  <img width="800" src="figs/SwinIR_archi.png">
+  <img width="800" src="Fig_1_Hair_removal_full (1).pdf">
 </p>
 
 # How to Test
