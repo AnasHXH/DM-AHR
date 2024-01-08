@@ -42,4 +42,4 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 The codes are based on [SR3](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement).
 
 ## Contribute
-For any questions or suggestions, please open an issue on the [GitHub issue tracker](https://github.com/bilel-bj/ROSGPT_Vision/issues).
+For any questions or suggestions, please open an issue on the [GitHub issue tracker](https://github.com/AnasHXH/DM-AHR/issues).
