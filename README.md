@@ -11,5 +11,25 @@ This repository is the official PyTorch implementation of DM-AHR: a customized S
 </p>
 
 # How to Test
-run
+## Prerequisites:
+Ensure Python is installed on your system.
+Have the required libraries and dependencies installed as per the project requirements.
+
+## Step 1: Access the Dataset
+Our dataset, titled "DERMAHAIR," is specifically tailored for skin cancer classification post hair removal. It is accessible through the following Kaggle link: [DERMAHAIR](https://www.kaggle.com/datasets/riotulab/skin-cancer-hair-removal). Please download the dataset or opt to use the specific class for akiec located under dataset/akiec_16_128.zip. 
+
+## Step 2: Extract the Dataset
+Extract the contents of akiec_16_128.zip. Ensure all files are successfully extracted and available for further processing.
+
+## Step 3: Configure Paths
+Navigate to the config directory and open akiec.json. Here, update all paths to correspond to the locations where you extracted the dataset files. Confirm that all paths are accurate and accessible.
+
+Step 4: Execute the Script
+Once the dataset is extracted and paths are configured, you are ready to execute the testing script. Use the following command to initiate the process:
+
+```bash
 python main/sr.py -p val -c main/config/akiec.json
+```
+This script is set to run in validation mode for the AKIEC class, using the configurations provided in akiec.json.
+# Downloading Model Weights
+To ensure the accuracy and efficiency of your tests, it is crucial to use the appropriate model weights.
