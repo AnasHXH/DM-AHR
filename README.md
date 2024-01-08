@@ -32,4 +32,4 @@ python main/sr.py -p val -c main/config/akiec.json
 ```
 This script is set to run in validation mode for the AKIEC class, using the configurations provided in akiec.json.
 # Downloading Model Weights
-To ensure the accuracy and efficiency of your tests, it is crucial to use the appropriate model weights.
+To ensure the accuracy and efficiency of your tests, it is crucial to use the appropriate model [weights](https://drive.google.com/drive/folders/1OINKjCZQNzU1OxFQ64i3GlYkgbe_zrIh?usp=sharing).
